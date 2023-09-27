@@ -5,7 +5,7 @@
 
 void fun(int a)
 {
-    printf("sayi : %d\n",a);
+    printf("number : %d\n",a);
 }
 
 int multiply(int a, int b)
@@ -15,7 +15,7 @@ int multiply(int a, int b)
 
 void number (int a)
 {
-  printf(" a sayisi : %d\n",a);
+  printf("Number a : %d\n",a);
 }
 int main()
 {
@@ -30,7 +30,7 @@ int main()
     (*fun_ptr)(40);
 
     //My example
-    int (*multiple_ptr)(int,int) = &multiply;
+    int (*multiply_ptr)(int,int) = &multiply;
     printf("%d x %d = %d\n",7,8,(*multiply_ptr)(7,8));
 
   //A function’s name can also be used to get functions’ address.
@@ -43,3 +43,10 @@ int main()
 
     return 0;
 }
+
+/*       Output
+number : 40
+7 x 8 = 56
+Number a : 5
+Number a : 15
+*/

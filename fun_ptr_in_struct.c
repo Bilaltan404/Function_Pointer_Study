@@ -57,3 +57,9 @@ int main()
 
     return 0;
 }
+
+/*      Output
+The result is : 60
+The result is : 20
+The result is : 800
+*/

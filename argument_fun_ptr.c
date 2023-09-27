@@ -19,3 +19,8 @@ int main()
     wrapper(fun2);
     return 0;
 }
+
+/*      Output
+Fun1
+Fun2
+*/
