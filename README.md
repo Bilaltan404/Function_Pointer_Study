@@ -5,6 +5,13 @@ This repository contains code examples and explanations related to the concept o
 
 In C, a function pointer is a variable that can store the address of a function. This enables you to create more dynamic and flexible code by allowing you to choose which function to call at runtime. This repository includes a set of examples to help you understand how function pointers work and how to use them effectively in your C programs.
 
+### Syntax
+To declare a function pointer we have to follow the next syntax 
+
+Return Type       ( * function pointer's variable name ) ( parameters ) 
+
+Example :     int (*func)(int a , int b ) ;
+
 ## Examples
 Here is a list of the examples included in this repository:
 
